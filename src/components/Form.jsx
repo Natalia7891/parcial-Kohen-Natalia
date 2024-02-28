@@ -3,14 +3,14 @@
 const Form = () => {
   return (
     <form>
-      <label ></label>
+      <label >Nombre:</label>
       <input type="text" 
       // value={}
       />
-      <label ></label>
+      <label >Apellido:</label>
       <input type="text" />
-      <label ></label>
-      <input type="text"  />
+      <label >email: </label>
+      <input type="email"  />
       <button>Enviar</button>
     </form>
   )
