@@ -1,0 +1,29 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.btn {
+  background-color: #13719c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
